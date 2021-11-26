@@ -299,7 +299,7 @@ section .second p {
 }
 
 
-@media (min-width:1024px) and (max-width:1900px) {
+@media only screen and (max-width:1900px) and (min-width:1024px) {
     header #menu-bar {
         display: none;
     }
@@ -378,7 +378,7 @@ section .second p {
         transition: 0.3 ease;
     }
 }
-@media only screen and  (min-width:300px) and (max-width:576px){
+@media only screen and (max-width:576px) and (min-width:300px)  {
     .container {
         width:100%;
         margin-top: -5px;
