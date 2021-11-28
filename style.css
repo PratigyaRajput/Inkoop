@@ -383,6 +383,9 @@ section .second p {
         width:100%;
         margin-top: -5px;
     }
+    .main-menu {
+        display: none;
+    }
     #menu-bar {
         width: 530px;
         display: flex;
